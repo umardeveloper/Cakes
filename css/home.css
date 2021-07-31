@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fraunces', serif;
+
+}
+.container{
+    max-width: 1200px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main{
+    background-image: url(../home-page-img/11664-bakery-wedding-cake_642x340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 680px;
+    padding: 15px 700px;
+    
+}
+.info{
+    /* margin-left: 700px;  */
+    margin-bottom: 10px;
+    color: pink;
+    width: 500px;
+}
+.cakes-h1{
+    font-size: 60px;
+}
+a{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    width: 100%;
+    display: inline;
+}

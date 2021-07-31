@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Fraunces', serif;
+    margin: 0;
+    padding: 0;
+}
+li,a{
+    list-style: none;
+    text-decoration: none;  
+}
+.container{
+    max-width: 1200px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+   background-color: #fff;
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.header .container{
+    display: flex;
+}
+.nav{
+    margin-left: auto;
+}
+.nav-list
+{
+    display: flex;
+}
+.nav-item{
+    padding: 10px;
+    font-size: 20px;
+}
+.nav-link{
+    color: red;
+}
+.nav-item:hover{
+    cursor: pointer;
+    border-bottom : 2px solid red;
+}
+.main{
+    margin-top: 90px;
+}
+.main .container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cakes-card
+{
+    height: 600px;
+    margin-bottom: 50px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+.card-info
+{
+    color: palevioletred;
+    width: 300px;
+    text-align: center;
+}
+.card-link{
+    padding: 8px 16px;
+    background-color: rgb(137, 233, 113);
+    color: white;
+}
